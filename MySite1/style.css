@@ -1,0 +1,44 @@
+body {
+  background: pink;
+}
+
+h1 {
+  text-align: left;
+  vertical-align: middle;
+  height: 100px;
+  background-color: green;
+}
+p {
+  background-color: yellow;
+  font-size: 6em;
+  display: inline;
+
+}
+p span {
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto;
+  background-color: yellow;
+}
+.figure {
+  position: reative;
+  width: 200px;
+  height: 50px;
+  background-color: grey;
+}
+
+/*.figure::after {
+  position: absolute;
+  content:"";
+
+  border-left: 90px solid blue;
+  border-top: 25px solid transparent;
+  border-bottom: 0;
+
+  right: -90px;
+  top: 0;
+}*/
